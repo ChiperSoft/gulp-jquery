@@ -1,6 +1,6 @@
 {
   "name": "gulp-jquery",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Gulp plugin for generating custom jQuery builds from source.",
   "main": "index.js",
   "scripts": {
