@@ -1,0 +1,29 @@
+{
+  "name": "gulp-jquery",
+  "version": "0.1.0",
+  "description": "Gulp plugin for generating custom jQuery builds from source.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit tests --reporter=minimal"
+  },
+  "keywords": [
+    "gulp",
+    "jquery",
+    "build",
+    "custom"
+  ],
+  "author": "Jarvis Badgley <chiper@chipersoft.com> (http://chipersoft.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiperSoft/gulp-jquery.git"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.2",
+    "jquery-custom": "^1.0.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
+  }
+}
