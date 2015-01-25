@@ -54,6 +54,7 @@ function plugin (opts) {
 			var blankFile = new gutil.File();
 
 			stream.write(blankFile);
+			stream.end();
 		}, 1);
 		return stream;
 	};
