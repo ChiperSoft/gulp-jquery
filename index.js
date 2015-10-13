@@ -70,7 +70,7 @@ module.exports.src = function () {
 }
 
 module.exports._jQuery1Source = function () {
-	var base = join(__dirname, '/node_modules/jquery-custom/node_modules/jquery.1/node_modules/jquery');
+	var base = join(__dirname, '/node_modules/jquery-custom/jquery.1/');
 	var filePath = join(base, '/src');
 
 	return new gutil.File({
@@ -81,7 +81,18 @@ module.exports._jQuery1Source = function () {
 };
 
 module.exports._jQuery2Source = function () {
-	var base = join(__dirname, '/node_modules/jquery-custom/node_modules/jquery.2/node_modules/jquery');
+	var base = join(__dirname, '/node_modules/jquery-custom/jquery.2/');
+	var filePath = join(base, '/src');
+
+	return new gutil.File({
+		cwd: __dirname,
+		base: base,
+		path: filePath
+	});
+};
+
+module.exports._jQuery3Source = function () {
+	var base = join(__dirname, '/node_modules/jquery-custom/jquery.3/');
 	var filePath = join(base, '/src');
 
 	return new gutil.File({

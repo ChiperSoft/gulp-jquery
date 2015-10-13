@@ -19,11 +19,11 @@
     "url": "https://github.com/ChiperSoft/gulp-jquery.git"
   },
   "dependencies": {
-    "gulp-util": "^3.0.2",
-    "jquery-custom": "^1.1.0",
-    "through2": "^0.6.3"
+    "gulp-util": "~3.0.6",
+    "jquery-custom": "~1.1.0",
+    "through2": "~2.0.0"
   },
   "devDependencies": {
-    "nodeunit": "^0.9.0"
+    "nodeunit": "~0.9.1"
   }
 }
